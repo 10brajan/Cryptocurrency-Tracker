@@ -1,4 +1,4 @@
-# Rest Template :money_with_wings: :chart_with_upwards_trend:
+# Cryptocurrency Tracker :money_with_wings: :chart_with_upwards_trend:
 
 Aplikacja webowa do śledzenia aktualnych kursów kryptowalut. Wykorzystuje publiczne API [coinlayer](https://coinlayer.com/) do pobierania danych na temat kryptowalut w czasie rzeczywistym.
 
