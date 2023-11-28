@@ -21,11 +21,7 @@ public class CryptocurrencyClient {
                 OpenCryptocurrencyDTO.class, apiKey, "USD", symbols);
 
         if (openCryptocurrencyDTO != null && openCryptocurrencyDTO.isSuccess()) {
-            return CryptocurrencyDTO.builder()
-                    .success(openCryptocurrencyDTO.isSuccess())
-                    .target(openCryptocurrencyDTO.getTarget())
-                    .cryptocurrencies(openCryptocurrencyDTO.getRates())
-                    .build();
+            return new CryptocurrencyDTO(openCryptocurrencyDTO.getTarget(), openCryptocurrencyDTO.getRates());
         } else {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid cryptocurrency symbols");
         }

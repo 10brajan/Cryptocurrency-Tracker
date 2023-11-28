@@ -6,6 +6,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 
+import static com.example.resttemplate.constants.ConstantsUtil.DEFAULT_SYMBOLS;
+
 @Service
 @Log4j2
 @RequiredArgsConstructor
@@ -14,7 +16,7 @@ public class CryptocurrencyService {
 
     public CryptocurrencyDTO getCryptocurrency(String symbols) {
         if (symbols == null || symbols.isEmpty()) {
-            symbols = "BTC,ETH,XRP,LTC,BCH,EOS,BNB,LINK,DOT,ADA";
+            symbols = DEFAULT_SYMBOLS;
         }
         return cryptocurrencyClient.getCurrencyForSymbols(symbols);
     }
