@@ -7,9 +7,7 @@ A web application for tracking current cryptocurrency rates. It uses the public 
 - Ability to query rates for any cryptocurrencies by entering their symbols.
 - Aesthetic and responsive user interface.
   
-- ## Screenshot of User Interface :camera_flash:
 
-![Kursy Kryptowalut UI](./images/cryptotracker.png)
 
 ## Technologies :computer:
 
