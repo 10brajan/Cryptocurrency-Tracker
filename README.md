@@ -7,7 +7,7 @@ A web application for tracking current cryptocurrency rates. It uses the public 
 - Ability to query rates for any cryptocurrencies by entering their symbols.
 - Aesthetic and responsive user interface.
   
-## Zrzut ekranu interfejsu użytkownika :camera_flash:
+## Screenshot of User Interface :camera_flash:
 
 ![Kursy Kryptowalut UI](./images/cryptocurrency.png)
 
@@ -27,7 +27,7 @@ To run the project locally, JDK (Java Development Kit) and Maven are required. T
    
     ```sh
     git clone https://github.com/10brajan/RestTemplate.git
-    cd twoj-projekt
+    cd your-project
     mvn clean install
     mvn spring-boot:run
     
