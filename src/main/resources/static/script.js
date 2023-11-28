@@ -19,7 +19,7 @@ function displayData(data) {
     if (data.error) {
         const errorDiv = document.createElement('div');
         errorDiv.className = 'error-message';
-        errorDiv.innerText = "Nie można znaleźć informacji o podanych kryptowalutach.";
+        errorDiv.innerText = "Unable to find information about the specified cryptocurrencies.";
         container.appendChild(errorDiv);
     } else {
         Object.entries(data.cryptocurrencies).forEach(([symbol, price]) => {
