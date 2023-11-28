@@ -1,41 +1,41 @@
 # Cryptocurrency Tracker :money_with_wings: :chart_with_upwards_trend:
+A web application for tracking current cryptocurrency rates. It uses the public  [coinlayer](https://coinlayer.com/) API to fetch real-time cryptocurrency data.
 
-Aplikacja webowa do śledzenia aktualnych kursów kryptowalut. Wykorzystuje publiczne API [coinlayer](https://coinlayer.com/) do pobierania danych na temat kryptowalut w czasie rzeczywistym.
+## Features :star2:
 
-## Funkcje :star2:
-
-- Wyświetlanie aktualnych kursów dla 10 najpopularniejszych kryptowalut.
-- Możliwość zapytania o kursy dowolnych kryptowalut poprzez wprowadzenie ich symboli.
-- Estetyczny i responsywny interfejs użytkownika.
-- ## Zrzut ekranu interfejsu użytkownika :camera_flash:
+- Displaying current rates for the top 10 cryptocurrencies.
+- Ability to query rates for any cryptocurrencies by entering their symbols.
+- Aesthetic and responsive user interface.
+  
+- ## Screenshot of User Interface :camera_flash:
 
 ![Kursy Kryptowalut UI](./images/cryptotracker.png)
 
-## Technologie :computer:
+## Technologies :computer:
 
-- **Backend**: Spring Boot z wykorzystaniem RestTemplate do komunikacji z API.
-- **Frontend**: Prosta strona HTML z CSS i JavaScript do wyświetlania danych.
-- **Deployment**: Aplikacja gotowa do wdrożenia na dowolnym serwerze obsługującym aplikacje Spring Boot.
+- **Backend**: Spring Boot using RestTemplate for API communication.
+- **Frontend**: A simple HTML page with CSS and JavaScript for displaying data.
+- **Deployment**: The application is ready for deployment on any server that supports Spring Boot applications.
 
-## Uruchomienie projektu :rocket:
+## Running the Project :rocket:
 
-Aby uruchomić projekt lokalnie, wymagane jest posiadanie JDK (Java Development Kit) oraz Maven. Następnie należy wykonać następujące kroki:
+To run the project locally, JDK (Java Development Kit) and Maven are required. Then, follow these steps:
 
-1. Sklonuj repozytorium:
-2. Przejdź do folderu projektu i zbuduj projekt przy pomocy Maven:
-3. Uruchom projekt za pomocą Spring Boot:
+1. Clone the repository:
+2. Navigate to the project folder and build the project using Maven:
+3. Run the project with Spring Boot:
+   
     ```sh
     git clone https://github.com/10brajan/RestTemplate.git
     cd twoj-projekt
     mvn clean install
     mvn spring-boot:run
     
-4. Otwórz przeglądarkę i przejdź do `http://localhost:8080`.
+5. Open your browser and go to `http://localhost:8080`.
 
-## Kontrybucje :handshake:
+## Contributions :handshake:
 
-Jeśli chcesz wnieść wkład w rozwój projektu, proszę o tworzenie Pull Requestów lub zgłaszanie problemów w zakładce Issues.
-
+If you would like to contribute to the project, please create Pull Requests or report issues in the Issues tab.
 ---
 
-Stworzone z :heart: przez [Brajan](https://github.com/10brajan)
+Created with :heart: by [Brajan](https://github.com/10brajan)
