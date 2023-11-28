@@ -9,7 +9,7 @@ A web application for tracking current cryptocurrency rates. It uses the public 
   
 - ## Screenshot of User Interface :camera_flash:
 
-![Cryptocurrency Tracker UI](./images/cryptotracker.png)
+![Cryptocurrency-Tracker UI](./images/cryptotracker.png)
 
 ## Technologies :computer:
 
