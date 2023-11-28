@@ -7,6 +7,9 @@ Aplikacja webowa do śledzenia aktualnych kursów kryptowalut. Wykorzystuje publ
 - Wyświetlanie aktualnych kursów dla 10 najpopularniejszych kryptowalut.
 - Możliwość zapytania o kursy dowolnych kryptowalut poprzez wprowadzenie ich symboli.
 - Estetyczny i responsywny interfejs użytkownika.
+- ## Zrzut ekranu interfejsu użytkownika :camera_flash:
+
+![Kursy Kryptowalut UI](./images/cryptotracker.png)
 
 ## Technologie :computer:
 
