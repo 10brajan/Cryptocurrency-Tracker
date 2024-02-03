@@ -38,4 +38,4 @@ To run the project locally, JDK (Java Development Kit) and Maven are required. T
 If you would like to contribute to the project, please create Pull Requests or report issues in the Issues tab.
 ---
 
-Created with :heart: by [Brajan](https://github.com/10brajan)
+Created by [Brajan](https://github.com/10brajan)
